@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>Promise</h2>
+    <div *ngIf="result" class="alert alert-success">
+        {{result}}
+    </div>
+    <div *ngIf="error" class="alert alert-danger">
+        {{error}}
+    </div>
+    <br>
+    <button class="btn btn-primary" (click)="tryAgain()">Try Again</button>
+</div>
